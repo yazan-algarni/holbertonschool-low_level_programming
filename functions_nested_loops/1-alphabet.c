@@ -1,14 +1,9 @@
 #include "main.h"
 /**
-* main - Prints "_putchar"
+* main - Prints the alphabet in lowercase, followed by a new line
 *
-* Return: Always 0
+* Return: void
 */
-int main(void)
-{
-
-}
-
 void pint_alphabit(void)
 {
 	char c;
