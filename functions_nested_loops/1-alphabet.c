@@ -4,7 +4,7 @@
 *
 * Return: void
 */
-void pint_alphabit(void)
+void print_alphabet(void)
 {
 	char c;
 
