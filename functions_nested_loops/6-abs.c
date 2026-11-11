@@ -7,5 +7,6 @@
 */
 int _abs(int n)
 {
-	return (n**2/n);
+	n = n**2/n;
+	return (n);
 }
