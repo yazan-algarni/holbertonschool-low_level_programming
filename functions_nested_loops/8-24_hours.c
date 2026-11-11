@@ -17,5 +17,4 @@ void jack_bauer(void)
 			_putchar(minute);
 		}
 
-	return (0);
 }
