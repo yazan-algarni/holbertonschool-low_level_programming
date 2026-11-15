@@ -18,6 +18,7 @@ void print_num(int n)
 	}
 	if (u / 10)
 		print_num(u / 10);
+
 	_putchar(u % 10 + '0');
 }
 
@@ -30,14 +31,14 @@ void print_to_98(int n)
 {
 	while (n != 98)
 	{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');
+		print_num(n);
+		_putchar(',');
+		_putchar(' ');
 
-			if (n < 98)
-				n++;
-			else
-				n--;
+		if (n < 98)
+			n++;
+		else
+			n--;
 	}
 
 	print_num(98);
