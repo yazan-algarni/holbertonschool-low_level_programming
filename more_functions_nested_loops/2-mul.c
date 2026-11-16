@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* int mul - multipliction 2 numbers
+* mul - multipliction 2 numbers
 * @a: is first number
 * @b: is secondry number
 *
