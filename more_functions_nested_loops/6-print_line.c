@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_line - print "_"
-*
+* @n: times of print
 *
 * Return: void
 */
