@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _strncat - concattenates 2 two string 
+* _strncat - concattenates 2 two string
 * @dest: frist string
 * @src: second string
 * @n: limit of long of string
