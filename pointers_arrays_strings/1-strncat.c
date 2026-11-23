@@ -3,6 +3,7 @@
 * _strncat - concattenates 2 two string 
 * @dest: frist string
 * @src: second string
+* @n: limit of long of string
 *
 * Return: 1 string
 */
@@ -15,10 +16,8 @@ j = 0;
 while (dest[i] != '\0')
 i++;
 
-while (j < n)
+while (j < n && src[j] != '\0')
 {
-if (src[j] != '\0')
-break;
 dest[i] = src[j];
 i++;
 j++;
