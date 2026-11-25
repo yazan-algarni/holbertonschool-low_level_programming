@@ -4,7 +4,7 @@
 * @haystack: main string
 * @needle: frok string
 *
-* Return:
+* Return: haystack or null
 */
 char *_strstr(char *haystack, char *needle)
 {
